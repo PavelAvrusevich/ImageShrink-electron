@@ -4,11 +4,13 @@
     "description": "App to shrink images",
     "main": "main.js",
     "scripts": {
-        "start": "electron ."
+        "start": "electron .",
+        "watch": "nodemon --exec electron ."
     },
     "author": "PavelAvrusevich",
     "license": "MIT",
     "devDependencies": {
-        "electron": "^13.1.2"
+        "electron": "^13.1.2",
+        "nodemon": "^2.0.7"
     }
 }
