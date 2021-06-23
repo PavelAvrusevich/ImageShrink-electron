@@ -113,7 +113,7 @@ async function shrinkImage({ imgPath, quality, dest }) {
 
         const files = await imagemin([slash(imgPath)], {
             destination: dest,
-            pligins: [
+            plugins: [
                 imageminMozjpeg({
                     quality: Number(quality),
                 }),

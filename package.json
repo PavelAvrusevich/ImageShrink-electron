@@ -2,10 +2,10 @@
     "name": "image-shrink",
     "version": "1.0.0",
     "description": "App to shrink images",
-    "main": "main.cjs",
+    "main": "main.js",
     "scripts": {
         "start": "electron .",
-        "watch": "nodemon --exec electron ."
+        "watch": "nodemon --exec npm run start"
     },
     "author": "PavelAvrusevich",
     "license": "MIT",
@@ -14,9 +14,9 @@
         "nodemon": "^2.0.7"
     },
     "dependencies": {
-        "imagemin": "^8.0.0",
+        "imagemin": "^7.0.1",
         "imagemin-mozjpeg": "^9.0.0",
         "imagemin-pngquant": "^9.0.2",
-        "slash": "^4.0.0"
+        "slash": "^3.0.0"
     }
 }
